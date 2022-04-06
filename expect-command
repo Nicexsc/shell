@@ -1,3 +1,4 @@
+#基本交互式命令expect 使用教程
 expect <<EOF
 spawn ssh -i $shellDir/rsa_key.pem root@$add
 expect "yes"

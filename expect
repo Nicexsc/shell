@@ -1,0 +1,7 @@
+expect <<EOF
+spawn ssh -i $shellDir/rsa_key.pem root@$add
+expect "yes"
+send yes\r
+send exit\r
+expect eof		
+EOF
